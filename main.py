@@ -14,7 +14,7 @@ from google.auth.transport.requests import Request as GoogleAuthRequest
 
 app = FastAPI()
 
-# Configurable via environment variables so this repo has zero personal
+# Configurable via environment variables
 # details baked in -- anyone cloning it configures their own values.
 LOCAL_TZ = ZoneInfo(os.getenv("TIMEZONE", "America/New_York"))
 TIMEZONE_NAME = os.getenv("TIMEZONE", "America/New_York")
