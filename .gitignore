@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Local database
+memory.db
+memory.db-wal
+memory.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
